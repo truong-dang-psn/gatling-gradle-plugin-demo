@@ -30,7 +30,7 @@ jobs:
         distribution: 'temurin'
     - name: Compile Gatling Scala
       run: |
-        ./gradlew compileGatlingScala
+        ./gradlew clean build fatJar
     - name: Run Gatling Simulations
       run: |
-        ./gradlew gatlingRun
+        ./gradlew gatlingRun-computerdatabase.BasicSimulation
