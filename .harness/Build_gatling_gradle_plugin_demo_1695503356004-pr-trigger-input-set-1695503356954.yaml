@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gatling_gradle_plugin_demo_1695503356004-pr-trigger-input-set
+  identifier: Build_gatling_gradle_plugin_demo_1695503356004prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gatling_gradle_plugin_demo_1695503356004
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
